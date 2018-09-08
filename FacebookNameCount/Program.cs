@@ -19,7 +19,7 @@ namespace FacebookNameCount
             Console.WriteLine("Names you enter are users who like your post.");
             Console.WriteLine();
 
-            // loops through the add name stuff
+            
             do
             {
                 Console.Write("Enter a name: ");
