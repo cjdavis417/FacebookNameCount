@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace FacebookNameCount
 {
-    class Program
+    partial class Program
     {
+
         static void Main(string[] args)
         {
 
@@ -37,7 +38,8 @@ namespace FacebookNameCount
                         }
                         else
                         {
-                            Console.WriteLine(Names[0] + " and " + Names[1] + " likes your post");
+                            string twoNames = string.Format("{0} {1} {2} {3}", Names[0], "and", Names[1], "like your post");
+                            Console.WriteLine(twoNames);
                         }
                     }
                     else if (Names.Count == 3)
